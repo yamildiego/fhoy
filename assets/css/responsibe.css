@@ -1,0 +1,150 @@
+/*@media screen and (max-width:320px) {}
+@media screen and (min-width:321px) and (max-width:639px) {}*/
+
+@media screen and (max-width:1300px) {
+    .ocultarp{display: none!important;
+        
+    }
+    }
+@media screen and (max-width:959px) {
+    .body{
+        max-width: 800px;
+    }
+    .logo{
+        display: none;
+    }
+    .logo2{
+        width: 105px;
+        float: left;
+        display: block;
+    }
+    .cruz{
+        display: none;
+    }
+    .subrayado{
+        margin-left:30px;
+    }
+    h1{
+        margin-left:30px;
+    }
+    .layout{
+        width: 90%;
+    }
+    .sublayout{
+        margin-left: 5%;
+        width: 90%;
+    }
+    .publish{
+        width: 0%;
+    }
+    .imgcruz{
+        width: 0%;
+      
+    }
+    
+        
+       
+}
+@media screen and (min-width:960px) {
+    .body{
+        width: 1024px;
+    }
+}
+
+@media screen and (min-width: 560px) {
+    ul.menu_margin li{
+        display: inline!important;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+    #combobox{
+        height: 35px;
+        line-height: 35px;
+    }
+    .w-100-xs{
+        width: 98%!important;
+    }
+    .facebook{
+        text-align: center;
+    }
+    footer{
+        position: relative;
+    }
+    .margin-top-10-xs{
+        margin-top: 10px;
+    }
+    .text-center-xs{
+        text-align: center;
+    }
+    .box_footer{
+        color: #666;
+        background-color: #fafafa;
+        box-shadow: 1px 1px 4px 2px #ddd;
+    }
+    .hidden-760{
+        display: none;
+    }
+}
+
+/* responsive styles */
+@media screen and (max-width: 560px) {
+    .box{
+        width: 100%;
+        margin: 15px auto 0 auto!important;
+    }
+    ul.menu_margin{
+        padding-top: 36px!important;
+    }
+    #menu_phone{
+        background-image: url('../image/menu.png');
+        padding: 18px;
+        float: right;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    #menu li {
+        float: none; 
+        margin: 0;
+        text-align: left;
+        width: 100%;
+        position: relative;
+        display: none;
+    }
+    img.logo2{
+        display: none;
+    }
+    #menu li a{
+        background: rgb(75, 156, 87);
+    }
+    ul.menu_margin li{
+        z-index: 2;
+    }
+    .hidden-all-xs{
+        display: block!important;
+        width: 300px;
+        margin: auto;
+    }
+    .hidden-xs{
+        display: none;
+    }
+    .w-100-xs{
+        width: 98%!important;
+    }
+    .text-center-xs{
+        text-align: center;
+    }
+    .facebook{
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    footer{
+        position: relative;
+    }
+}
+
+.hidden-all-xs{
+    display: none;
+}

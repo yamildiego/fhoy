@@ -1,0 +1,156 @@
+*{
+    font: normal 13px Roboto,arial,sans-serif;
+}
+body{
+    margin: 0;
+}
+.icon{
+    width: 35px;
+    height: 65px;
+    margin: 4px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon-small{
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.row{
+    width: 100%;
+}
+.w10{
+    width: 9%;  
+    margin-left: 1%;
+    float: left;
+}
+.w20{
+    width: 19%;  
+    margin-left: 1%;
+    float: left;
+}
+.w30{
+    width: 29%;  
+    margin-left: 1%;
+    float: left;
+}
+.w40{
+    width: 39%;  
+    margin-left: 1%;
+    float: left;
+}
+.w50{
+    width: 49.25%;
+    margin-left: 0.5%;
+    float: left;
+}
+.w60{
+    width: 59%;   
+    margin-left: 1%;
+    float: left;
+}
+.w70{
+    width: 69%;   
+    margin-left: 1%;
+    float: left;
+}
+.w80{
+    width: 79%;  
+    margin-left: 1%;
+    float: left;
+}
+.w90{
+    width: 89%;
+    margin-left: 1%;
+    float: left;
+}
+.w100{
+    width: 99%;
+    margin-left: 1%;
+    float: left;
+}
+.w25{
+    width: 24%;   
+    margin-left: 1%;
+    float: left;
+}
+.w45{
+    width: 44%;   
+    margin-left: 1%;
+    float: left;
+}
+.w55{
+    width: 54%;   
+    margin-left: 1%;
+    float: left;
+}
+.w65{
+    width: 64%;   
+    margin-left: 1%;
+    float: left;
+}
+
+div.error{
+    background: #FBDEDB;
+    color: #E83C28;
+    padding: 8px;
+    margin: 5px 0px 0px 20px;
+    font-size: 12px;
+}
+
+div.ok{
+    background: #C1FFD1;
+    color: #00661A;
+    padding: 8px;
+    margin: 5px 0px 0px 20px;
+    font-size: 12px;
+}
+
+.h40{
+    height: 40px;
+}
+.h75{
+    height: 75px;
+}
+
+.marginl8{
+    margin-left: 8px;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    color: #666;
+    background-color: #fafafa;
+    box-shadow: 1px 1px 4px 2px #ddd;
+}
+footer .container{
+    max-width: 1024px;
+    margin: auto;
+}
+footer .footer-below{
+    color: #666;
+    background: #fff;
+}
+.img-logo-nocios{
+    width: 80px;
+    padding-left: 1px;
+    transition: all .2s ease-in-out; 
+}
+.img-logo-nocios:hover{
+    transform: rotate(-25deg) scale(1.5);
+}
+.text-right{
+    text-align: right;
+}
+.padding-top-bottom-20{
+    padding: 20px 0px 20px 0px;
+}
+
+.padding-right-10px{
+    padding-right: 10px;
+}
